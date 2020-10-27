@@ -88,11 +88,41 @@ a:hover{
     box-shadow: 10px -10px 50px rgb(0, 0, 0, .3);
 }
 
-.card img{
+.category-img{
     height: 12em;
     object-fit: cover;
 }
-.sub-card{
+
+.doc-card a {
+    display: flex;
+}
+
+.doc-img{
+    padding: .3em 0 0 .3em;
+    border-radius: .3em;
+    width: 8em;
+    height: 8em;
+    object-fit: cover;
+    /* flex: 1; */
+}
+
+.doc-card-body{
+    padding: 1em 1em 2em 1em;
+    /* flex: 5; */
+}
+
+
+.doc-card-body .card-title{
+    height: 2.9rem;
+    overflow: hidden;
+}
+
+.doc-description{
+    height: 7.4rem;
+    overflow: hidden;
+}
+
+/* .sub-card{
     margin-bottom: 1em;
 }
 .sub-card:hover{
@@ -101,7 +131,7 @@ a:hover{
 .sub-card img{
     height: 23em;
     object-fit: cover;
-}
+} */
 
 .sub-title-underline{
     height: 3px;
