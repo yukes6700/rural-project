@@ -92,6 +92,29 @@ a:hover{
     height: 12em;
     object-fit: cover;
 }
+.sub-card{
+    margin-bottom: 1em;
+}
+.sub-card:hover{
+    box-shadow: 10px -10px 50px rgb(0, 0, 0, .3);
+}
+.sub-card img{
+    height: 23em;
+    object-fit: cover;
+}
+
+.sub-title-underline{
+    height: 3px;
+    width: 22%;
+
+    background-color: var(--primary-color);
+    margin: 0 0 3em 0;
+
+}
+
+.card-title{
+    color: darkgreen;
+}
 
 
 
